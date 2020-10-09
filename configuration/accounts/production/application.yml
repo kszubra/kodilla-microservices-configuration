@@ -4,6 +4,7 @@ server:
 spring:
   application:
     name: accounts
+    allow-get-accounts: false
   profiles:
     active: production
   datasource:
