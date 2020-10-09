@@ -4,7 +4,6 @@ server:
 spring:
   application:
     name: accounts
-    allow-get-accounts: false
   profiles:
     active: production
   datasource:
@@ -16,3 +15,6 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+
+application:
+  allow-get-accounts: false
