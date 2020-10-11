@@ -16,6 +16,3 @@ customers:
     username: postgres
     password: password
     driver-class-name: org.postgresql.Driver
-
-eureka-client:
-  fetchRegistry: true
