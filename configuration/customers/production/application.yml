@@ -6,12 +6,6 @@ spring:
     name: customers
   profiles:
     active: production
-#  datasource:
-#    url: jdbc:postgresql://localhost:5433/customersDb
-#    platform: postgres
-#    continue-on-error: true
-#    username: postgres
-#    password: password
   jpa:
     hibernate:
       ddl-auto: update
@@ -22,3 +16,6 @@ customers:
     username: postgres
     password: password
     driver-class-name: org.postgresql.Driver
+
+eureka-client:
+  fetchRegistry: true
